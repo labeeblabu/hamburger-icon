@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+button{
+    background-color: rebeccapurple;
+    color: azure;
+    border: none;
+    padding: 1rem;
+    border-radius: .4rem;
+}
+
+#container{
+right: 0;
+bottom: 0;
+position: fixed;
+transition: 1s;
+}
+
+.notify{
+    color: azure;
+    background-color: rebeccapurple;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 1rem;
+    transition:1s;
+}
